@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block header %}
+    <h1>这里是用户中心</h1>
+{% endblock %}
+
+{% block content %}
+    <!-- 移除 get_flashed_messages() 的调用 -->
+    <a href="{{ url_for('user.user_list') }}" class="btn btn-primary">用户列表</a>
+    <a href="{{ url_for('user.add_user') }}" class="btn btn-secondary">添加用户</a>
+    <a href="{{ url_for('user.logout') }}" class="btn btn-danger">注销</a>
+{% endblock %}

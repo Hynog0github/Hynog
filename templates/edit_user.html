@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="{{ url_for('user.edit_user', user_id=user.hyn_id) }}" method="post">
+    用户名：<input type="text" name="hyn_username" value="{{ user.hyn_username }}"><br>
+    密码：<input type="password" name="hyn_password" value="{{ user.hyn_password }}"><br>
+    姓名：<input type="text" name="hyn_name" value="{{ user.hyn_name }}"><br>
+    性别：<input type="text" name="hyn_gender" value="{{ user.hyn_gender }}"><br>
+    班级：<input type="text" name="hyn_class" value="{{ user.hyn_class }}"><br>
+    地址：<input type="text" name="hyn_address" value="{{ user.hyn_address }}"><br>
+    电话号码：<input type="text" name="hyn_phone" value="{{ user.hyn_phone }}"><br>
+    <input type="submit" value="更新信息">
+</form>
+{% endblock %}

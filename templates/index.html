@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+{%for k,v in user_list().items()%}
+{{k}} , {{v[0]}} <br/>
+{%endfor%}
+{% endblock %}
