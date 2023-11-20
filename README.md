@@ -65,32 +65,31 @@
 ## 使用说明
 1. **登录界面**:
    - 输入账户和密码，会提示错误类型。
-   ![Alt text](image-12.png)
-   ![Alt text](image-13.png)
+   
 
 2. **用户主界面**:
    - 欢迎用户登录
-    ![Alt text](image-14.png)
+    
 
 
    - 提供三个功能界面
         - 用户列表：对用户信息进行删改查(查详细信息)
-        ![Alt text](image-22.png)
+        
             - 查看详情
-            ![Alt text](image-23.png)
+            
             - 编辑
-            ![Alt text](image-17.png)
+            
             - 删除：无界面，但会有二次提示：
-            ![Alt text](image-18.png)
+            
 
         - 添加用户：添加新用户，用户名不能重复
-        ![Alt text](image-19.png)
-        ![Alt text](image-20.png)
+        
+        
         添加成功后会自动跳转：
-        ![Alt text](image-24.png)
+        
 
         - 注销：注销当前登录
-        ![Alt text](image-25.png)
+        
 
 ## 数据库代码补充：
 
